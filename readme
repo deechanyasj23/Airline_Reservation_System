@@ -1,0 +1,23 @@
+📖 Description
+A comprehensive system to simulate, manage, and book airline flights. This application allows users to search for flights, select seats, and manage bookings, while providing administrators with tools to update flight schedules. 
+✨ Features
+User Authentication: Secure Sign up/Login.
+Flight Search: Search by destination, date, and class (Economy/Business).
+Booking Management: Reserve, view, and cancel flight tickets.
+Real-time Availability: Seat tracking to prevent overbooking.
+Admin Dashboard: CRUD operations for flight schedules and aircraft data. 
+
+GitHub
+ +3
+🛠️ Technology Stack
+Backend:  Node.js.
+Database: SQLite or MySQL (with ACID property management).
+API: RESTful endpoints for managing bookings. 
+
+GitHub
+ +4
+🚀 Installation & Usage
+Clone the Repository: git clone https://github.com
+Database Setup: Run the provided SQL scripts to populate airports and flights.
+Run Application: Compile and run Main.java or app.py.
+Testing: Follow prompt instructions to book, search, and cancel flights
