@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyHigh Airlines | Flight Reservation</title>
+    <!-- Standard CSS link (ensure your style.css is in the same folder) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">SkyHigh Airlines</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">My Bookings</a></li>
+                <li><a href="#">Check PNR</a></li>
+  <li><a href="#">About</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Booking Form -->
+    <main>
+        <section class="hero">
+            <h1>Where to next?</h1>
+            <div class="booking-container">
+                <form action="flights.php" method="POST">
+                    <div class="input-group">
+                        <label for="origin">From:</label>
+                        <input type="text" id="origin" name="origin" placeholder="Origin City" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="destination">To:</label>
+                          <input type="text" id="destination" name="destination" placeholder="Destination City" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="date">Departure Date:</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <button type="submit" class="search-btn">Search Flights</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Featured Flights Section -->
+        <section class="featured">
+            <h2>Popular Destinations</h2>
+            <div class="flight-grid">
+                <!-- Flight Card Example -->
+                <div class="flight-card">
+                    <h3>New York to London</h3>
+                    <p>Starting from $450</p>
+                       <button class="book-now">Book Now</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SkyHigh Airlines. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
